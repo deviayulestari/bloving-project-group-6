@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.highlight{
+    margin-top: 70px;
+    display: flex;
+}
+
+.highlight-text{
+    background: url(../images/reading.jpg);
+    max-height: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+}
+
+.highlight-text > h2{
+    color: #3F7893;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.highlight-text > h2 > span{
+    color: #C53058;
+}
+
+.hottest > .card{
+    box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+.hottest > .card > .card-header{
+    background-color: #C53058;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card > .card-body{
+    padding: 0 15px;
+}
+
+.card-body > h5{
+    font-size: 16px!important;
+    font-weight: bold;
+}
+
+.card-body > .highlight-btn {
+    display: inline-block;
+    color: #C53058;
+    border: 2px solid#C53058;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.card-body > .highlight-btn:hover{
+    color:#fff;
+    background: #C53058;
+    font-weight: bold;
+}
+
+@media (max-width:768px){
+    .highlight{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .highlight > .highlight-text{
+        background: none;
+    }
+}
