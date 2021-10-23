@@ -6,4 +6,8 @@ Member :
 - Fadilla Miftahul J.  
   
 Mentor :  
+<<<<<<< HEAD
 Rizky Maulita Putri
+=======
+Rizky Maulita Putri
+>>>>>>> parent of c1ce0e9 (Update README.md)
