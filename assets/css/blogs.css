@@ -36,11 +36,13 @@
 
 .hottest > .card{
     box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
+    border-radius: 10px;
 }
 
 .hottest > .card > .card-header{
     background-color: #C53058;
     color: #fff;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .card > .card-body{

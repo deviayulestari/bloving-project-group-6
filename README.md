@@ -7,5 +7,3 @@ Member :
   
 Mentor :  
 Rizky Maulita Putri
-  
-Notes: This branch for accommodate all changes that are still in the development stage before being merged into master  
