@@ -5,7 +5,7 @@ import {
 
 // Checking if user is already logged in
 if(isLogin()) {
-    window.location.href = "../pages/index.html";
+    window.location.href = "../index.html";
 }
 
 // Login Event Listener
@@ -27,7 +27,7 @@ if(formLogin) {
     
         if(isValid === true) {
             console.log("line 32");
-            window.location.href = "index.html";
+            window.location.href = "../index.html";
         }
     });
 }
@@ -153,7 +153,7 @@ const register = (data) => {
     
     setLocalStorage("users", users);
     setLocalStorage("login", data.email);
-    window.location.href = '../pages/index.html';
+    window.location.href = '../index.html';
 };
 
 const passwordConfirmation = (password, confirmPassword) => password === confirmPassword;
