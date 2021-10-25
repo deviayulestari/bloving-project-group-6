@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/register-login.css">
     
 </head>
 <body>
-    
 <!-- header section starts -->
 
 <header class="fixed-top py-3">
@@ -30,7 +30,12 @@
             <a href="#prevent">prevent</a>
             <a href="#blogs">blogs</a>
             <a href="#contact">contact</a>
-            <a href="#login">Login</a>
+            <a href="#" id="loginBtn">Login</a>
+            <div class="d-none" id="account-menu">
+                <div class="nav">
+                    <a href="#" id="confirmLogout" data-bs-toggle="modal" data-bs-target="#exampleModal">Logout</a>
+                </div>
+            </div>
         </nav>
     </div>
 </header>
@@ -43,7 +48,7 @@
     <div class="container">
         <div class="row min-vh-100 align-items-center pt-5">
             <div class="col-md-6">
-                <img src="assets/images/virus.jpg" class="w-100" alt="">
+                <img src="../assets/images/virus.jpg" class="w-100" alt="">
             </div>
             <div class="col-md-6 content text-center text-md-start pl-md-5">
                 <span>stay home</span>
@@ -58,7 +63,7 @@
 
 <!-- about section starts  -->
 
-<section class="about" id="about">
+<section class="about my-3" id="about">
     <div class="container">
         <div class="row align-items-center flex-wrap-reverse">
             <div class="col-md-6 content">
@@ -68,7 +73,7 @@
                 <a href="#" class="link-btn">learn more</a>
             </div>
             <div class="col-md-6">
-                <img src="assets/images/virus2.png" class="w-100" alt="">
+                <img src="../assets/images/virus2.png" class="w-100" alt="">
             </div>
         </div>
     </div>
@@ -78,42 +83,42 @@
 
 <!-- prevent section starts  -->
 
-<section class="prevent" id="prevent">
+<section class="prevent my-3" id="prevent">
     <h1 class="heading"> how to <span>prevent</span>? </h1>
     <div class="container">
         <div class="d-flex flex-wrap justify-content-center">
             <div class="box p-4 m-2">
-                <img src="assets/images/mask.png" alt="">
+                <img src="../assets/images/mask.png" alt="">
                 <h3>wear a mask</h3>
                 <p>Wear a mask in public, especially indoors or when physical distancing is not possible</p>
             </div>
 
             <div class="box p-4 m-2">
-                <img src="assets/images/wash_hand.png" alt="">
+                <img src="../assets/images/wash_hand.png" alt="">
                 <h3>wash your hand</h3>
                 <p>Clean your hands often. Use soap and water, or an alcohol-based hand rub.</p>
             </div>
 
             <div class="box p-4 m-2">
-                <img src="assets/images/vaccine.png" alt="">
+                <img src="../assets/images/vaccine.png" alt="">
                 <h3>Take your vaccine</h3>
                 <p>Get vaccinated when it’s your turn. Follow local guidance about vaccination.</p>
             </div>
 
             <div class="box p-4 m-2">
-                <img src="assets/images/cough.png" alt="">
+                <img src="../assets/images/cough.png" alt="">
                 <h3>guard others</h3>
                 <p>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</p>
             </div>
 
             <div class="box p-4 m-2">
-                <img src="assets/images/contact.png" alt="">
+                <img src="../assets/images/contact.png" alt="">
                 <h3>avoid contact</h3>
                 <p>Maintain a safe distance from others (at least 1 metre), even if they don’t appear to be sick.</p>
             </div>
 
             <div class="box p-4 m-2">
-                <img src="assets/images/knowledge.png" alt="">
+                <img src="../assets/images/knowledge.png" alt="">
                 <h3>knowledge is power</h3>
                 <p>Follow local guidance: Check to see what national, regional and local authorities are advising so you have the most relevant information for where you are.</p>
             </div>
@@ -125,13 +130,13 @@
 
 <!-- blogs section starts  -->
 
-<section class="blogs" id="blogs">
+<section class="blogs my-3" id="blogs">
 <h1 class="heading"> our latest <span>blogs</span> </h1>
     <div class="container">
         <div class="d-flex justify-content-center flex-wrap">
             <div class="box p-3 m-2">
                 <div class="image">
-                    <img src="assets/images/blog-1.jpg" class="w-100 h-100"  alt="Blog 1 Image">
+                    <img src="../assets/images/blog-1.jpg" class="w-100 h-100"  alt="Blog 1 Image">
                 </div>
                 <div class="content p-2">
                     <h3>This Relentless Pandemic Can Tax Your Mental Health. Here’s How to Cope</h3>
@@ -145,7 +150,7 @@
 
             <div class="box p-3 m-2">
                 <div class="image">
-                    <img src="assets/images/blog-2.jpg" class="w-100 h-100"  alt="Blog 2 Image">
+                    <img src="../assets/images/blog-2.jpg" class="w-100 h-100"  alt="Blog 2 Image">
                 </div>
                 <div class="content p-2">
                     <h3>How Is Flu Season Different During the COVID-19 Pandemic?</h3>
@@ -159,7 +164,7 @@
 
             <div class="box p-3 m-2">
                 <div class="image">
-                    <img src="assets/images/blog-3.jpg" class="w-100 h-100"  alt="Blog 3 Image">
+                    <img src="../assets/images/blog-3.jpg" class="w-100 h-100"  alt="Blog 3 Image">
                 </div>
                 <div class="content p-2">
                     <h3>If You’re Tired All the Time, It Could Be Chronic Fatigue Syndrome</h3>
@@ -178,7 +183,7 @@
 
 <!-- contact section starts  -->
 
-<section class="contact" id="contact">
+<section class="contact my-3" id="contact">
     <h1 class="heading"> <span>contact us</span> for assistance </h1>
         <div class="container">
             <div class="row flex-wrap-reverse">
@@ -205,40 +210,10 @@
 
 <footer class="text-center text-lg-start text-white" style="background-color: #0D2D3E">
     <!-- Section: Social media -->
-    <section class="d-flex justify-content-between p-4" style="background-color: #C53058">
-        <!-- Left -->
-        <div class="me-5">
-            <span>Get connected with us on social networks:</span>
-        </div>
-        <!-- Left -->
-
-        <!-- Right -->
-        <div>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="text-white me-4">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
+    <section class="d-flex justify-content-between p-4"></section>
 
     <!-- Section: Links  -->
-    <section class="">
+    <section class="d-flex justify-content-between p-4">
         <div class="container text-center text-md-start mt-5">
             <!-- Grid row -->
             <div class="row mt-3">
@@ -305,6 +280,15 @@
                     <p>
                         <i class="fas fa-phone mr-3"></i> +62 089-9283-983
                     </p>
+                    <p>
+                        <i class="fab fa-facebook-f"></i> blovingId
+                    </p>
+                    <p>
+                        <i class="fab fa-instagram"></i> blovingId
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin"></i> blovingId
+                    </p>
                 </div>
                 <!-- Grid column -->
 
@@ -324,7 +308,7 @@
 <!-- footer section ends -->
 
 <!-- js file link  -->
-<script src="js/script.js"></script>
-<script src="js/index.js"></script>
+<script src="../js/script.js"></script>
+<script type="module" src="../js/index.js"></script>
 </body>
 </html>

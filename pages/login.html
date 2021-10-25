@@ -15,56 +15,57 @@
     <link rel="stylesheet" href="../assets/css/register-login.css">
 </head>
 <body>
-    <div class="d-flex min-vh-100 justify-content-center align-items-center">
+    <main class="d-flex min-vh-100 justify-content-center align-items-center">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10 col-xl-8 shadow rounded-6">
                     <div class="row justify-content-center py-md-0 py-5">
                         <div class="text-center d-md-none">
-                            <h4>Every new friend is a new adventure</h4>
+                            <h4>Every new friend is <span>a new adventure</span></h4>
                             <p class="text-secondary mt-1 mb-2">Let's get connected</p>
                         </div>
-
                         <div class="col-lg-5 col-md-5 col-7 p-2 my-auto">
-                            <img src="../assets/images/laptop.png" class="img-fluid w-100" alt="login-logo">
+                            <img src="../assets/images/laptop.png" class="img-fluid w-100" alt="Eco Shopping">
                         </div>
                         
                         <div class="col-lg-5 col-md-6 col-12 p-lg-5 px-4 pe-lg-2 py-md-5">
                             <div class="mb-4 d-none d-md-block">
-                                <h4 class="">Every new friend is a new adventure</h4>
+                                <h4 class="">Every new friend is <span>a new adventure</span></h4>
                                 <p class="text-secondary mt-1">Let's get connected</p>
                             </div>
                 
                             <div class="d-none alert alert-warning alert-dismissible fade show" role="alert">
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                <span class="d-none">Wrong password</span>
+                                <span class="d-none">Your email is registered<span>
+                                <button type="button" class="btn-close"></button>
                             </div>
                 
                             <form id="loginForm">
                                 <div class="mb-3">
-                                    <label for="email" class="form-label">E-mail</label>
+                                    <label for="email" class="form-label">Email</label>
                                     <div class="input-group mb-1">
                                         <span class="input-group-text" id="basic-addon1"><i class="far fa-at"></i></span>
-                                        <input type="email" class="form-control" placeholder="enter your eemail" id="email" autocomplete="off">
+                                        <input type="email" class="form-control" placeholder="Enter your e-mail" id="email" autocomplete="off">
                                     </div>
-                                    <small class="text-danger d-none">Please enter a valid email address</small>
+                                    <small class="text-danger d-none">Please enter a valid email address<</small>
                                 </div>
                                 
                                 <div class="mb-2">
                                     <label for="password" class="form-label">Password</label>
                                     <div class="input-group mb-1">
                                         <span class="input-group-text" id="basic-addon1"><i class="far fa-lock"></i></span>
-                                        <input type="password" class="form-control" placeholder="enter your password" id="password">
+                                        <input type="password" class="form-control" placeholder="Enter your password" id="password" autocomplete="off">
                                     </div>
                                     <small class="text-secondary">At least 8 character, number and alphabet</small>
                                 </div>
-                    
+                
                                 <div class="mb-3 form-check">
                                     <input type="checkbox" class="form-check-input" id="showPassword">
                                     <label class="form-check-label" for="showPassword">Show password</label>
                                 </div>
-                    
+                
                                 <div class="d-grid col-12 mt-md-4 mt-3">
-                                    <button type="submit" class="btn btn-success">Login</button>
+                                    <button type="submit" class="btn">Login</button>
                                 </div>
                             </form>
                 
@@ -76,7 +77,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <!-- js file link  -->
     <script type="module" src="../js/login.js"></script>

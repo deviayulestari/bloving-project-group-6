@@ -1,25 +1,23 @@
-// 
+import { isLogin, logout, getUser} from "./helpers.js";
 
-// IMPORT FROM helpers.js
-import { isLogin, logout } from "./helpers.js";
-
-const loginBtnEl = document.getElementById("loginBtn")
-const logoutBtnEl = document.getElementById("logoutBtn")
+const loginBtnEl = document.getElementById("loginBtn");
+const logoutBtnEl = document.getElementById("confirmLogout");
+const accountMenuEl = document.getElementById("account-menu");
 
 const checkLogin = () => {
-  if(isLogin()) {
-    loginBtnEl.classList.add('d-none')
-    logoutBtnEl.classList.remove('d-none')
-  }
-}
+    if(isLogin()) {
+        let user = getUser();
+        loginBtnEl.classList.add('d-none');
+        accountMenuEl.classList.remove('d-none');
+    }
+};
 
-window.onload = checkLogin()
+window.onload = checkLogin();
 
-loginBtnEl.addEventListener('click', () => {window.location.href = "../login.html"})
+// Login Button Click
+loginBtnEl.addEventListener('click', () => {window.location.href = "../pages/login.html"})
 
+// Logout Button Click
 logoutBtnEl.addEventListener('click', () => {
-  let isTrue = confirm("Anda yakin ingin logout?");
-  if(isTrue) {
-    logout()
-  }
-})
+    logout();
+});
