@@ -20,6 +20,8 @@ section:nth-child(odd){
     background: #f8f8fe;
 }
 
+
+
 .heading{
     text-align: center;
     padding:0 15px;
@@ -41,13 +43,11 @@ section:nth-child(odd){
     font-size: 17px;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    font-weight: bold;
 }
 
 .link-btn:hover{
     color:#fff;
     background: #3F7893;
-    font-weight: bold;
 }
 
 header{
@@ -99,7 +99,6 @@ header .nav a.active, header .nav a:hover{
 .home .content h3{
     color: #3F7893;
     font-size: 50px;
-    font-weight: bolder;
 }
 
 .about .content h3{
@@ -135,7 +134,6 @@ header .nav a.active, header .nav a:hover{
 
 .prevent .box h3{
     color: #244361;
-    font-weight: bold;
     font-size: 20px;
 }
 
@@ -225,6 +223,7 @@ header .nav a.active, header .nav a:hover{
     height: 100%;
     width:100%;
 }
+
 
 /* media queries  */
 @media (max-width:991px){
