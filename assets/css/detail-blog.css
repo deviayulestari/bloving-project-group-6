@@ -98,16 +98,27 @@
     font-weight: bold;
 }
 
-.other-blogs > .card{
+.other-blogs{
     box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
     border-radius: 10px;
     margin-top: 25px;
 }
 
-.other-blogs > .card > .card-header{
+.other-blogs > .card-other > .card-header{
     background-color: #C53058;
     color: #fff;
     border-radius: 10px 10px 0px 0px;
+}
+
+.other-blogs > .card-other > .card-body{
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 0;
+}
+
+.card-other > .card-body{
+    margin-top: 0;
+    padding: 15px 15px;
+    font-size: 16px;
 }
 
 #blog-comment{

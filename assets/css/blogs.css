@@ -34,19 +34,27 @@
     color: #C53058;
 }
 
-.hottest > .card{
+.hottest > .card-hottest{
     box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
     border-radius: 10px;
 }
 
-.hottest > .card > .card-header{
+.hottest > .card-hottest > .card-header{
     background-color: #C53058;
     color: #fff;
     border-radius: 10px 10px 0px 0px;
+    box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
 }
 
-.card > .card-body{
-    padding: 0 15px;
+.hottest > .card-hottest > .card-body{
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 0;
+}
+
+.card-hottest > .card-body{
+    margin-top: 0;
+    padding: 15px 15px;
+    font-size: 16px;
 }
 
 .card-body > h5{
@@ -71,6 +79,22 @@
     color:#fff;
     background: #C53058;
     font-weight: bold;
+}
+
+.list-blog{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.list-blog .box{
+    height: 430px;
+}
+
+.list-blogs .box .icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 @media (max-width:768px){
