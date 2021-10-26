@@ -140,6 +140,11 @@ header .nav a.active, header .nav a:hover{
     font-size: 14px;
 }
 
+.latest-blog{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .blogs h1{
     color: #3F7893;
 }
