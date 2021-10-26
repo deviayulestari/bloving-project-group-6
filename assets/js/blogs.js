@@ -6,14 +6,16 @@ const elListBlog = document.querySelector(".list-blog")
 
 dataBlogs.forEach((blog)=>{
     const elCol = `
-    <div class="col-lg-4 col-sm-12">
-        <div class="box p-3 m-2">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="box p-3 mt-5">
             <div class="image">
                 <img src="${blog.img_url}" class="w-100 h-100"  alt="Blog 1 Image">
                 </div>
             <div class="content p-2">
-                <h3>${blog.title}</h3>
-                <a href="${'detail-blog.html?id=' + blog.id}" class="link-btn">read more</a>
+                <div class="title"> 
+                    <h3>${blog.title}</h3>
+                    <a href="${'detail-blog.html?id=' + blog.id}" class="link-btn">read more</a>
+                </div>
                 <div class="icons">
                     <a href="#"><i class="fas fa-user"></i>by ${blog.author}</a>
                     <a href="#"><i class="fas fa-calendar"></i>${blog.date}</a>

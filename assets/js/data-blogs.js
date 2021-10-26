@@ -3,9 +3,9 @@ const dataBlogs = [
         id: 1,
         title: "This Relentless Pandemic Can Tax Your Mental Health. Here’s How to Cope",
         img_url: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        author: "Stephanie Turrot",
+        author: "Stephanie",
         date: "15 sep, 2021",
-        url: "https://www.instagram.com/",
+        url: "https://www.bannerhealth.com/healthcareblog/better-me/this-relentless-pandemic-can-tax-your-mental-health-heres-how-to-cope",
         text: `<p>Remember those brief, blissful weeks at the beginning of the summer? Vaccination rates were rising, COVID-19 infections were dropping and mask mandates were lifting. Lots of us started to cautiously hug our friends, eat in restaurants and plan vacations again. We thought we were seeing the end of the pandemic.
         <p>
             As it turns out, we were wrong. The Delta variant and vaccine hesitancy have combined to launch another surge in COVID-19 infections. And along with that comes another surge in mental health challenges related to the pandemic.
@@ -117,7 +117,7 @@ const dataBlogs = [
         id: 3,
         title: "If You’re Tired All the Time, It Could Be Chronic Fatigue Syndrome",
         img_url: "https://images.unsplash.com/photo-1501772418-b33899635bca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-        author: "Stephanie Thurrott",
+        author: "Stephanie",
         date: "Aug 06, 2021",
         url: "https://www.bannerhealth.com/healthcareblog/better-me/if-youre-tired-all-the-time-it-could-be-chronic-fatigue-syndrome",
         text: `<p> If you can barely remember the last time you felt energized all day and ready to tackle whatever came your way, a health condition might be causing your fatigue. Different health conditions can sap your energy, leaving you feeling sluggish and listless, and one of them is chronic fatigue syndrome (CFS), also called myalgic encephalomyelitis.</p>
@@ -212,7 +212,7 @@ const dataBlogs = [
         id: 5,
         title: "Tips for Thriving in the 'New Normal' Workplace",
         img_url: "https://images.unsplash.com/photo-1599110906885-b024c90c2773?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-        author: "Stephanie Thurrott",
+        author: "Stephanie.",
         date: "Jun 07, 2021",
         url: "https://www.bannerhealth.com/healthcareblog/advise-me/tips-for-thriving-in-the-new-normal-workplace",
         text: `<p>When the COVID-19 pandemic struck, it sent most office workers scurrying home. What we thought might be a few weeks of working from our bedrooms and dining rooms turned into more than a year. In that time, we’ve brightened our lipstick for Zoom meetings, gotten comfortable in our sweatpants and negotiated quiet, productive hours—or at least minutes—with our families.</p>
@@ -338,8 +338,8 @@ const dataBlogs = [
         id: 8,
         title: "Have COVID-19? You Could Be Eligible for Monoclonal Antibody Treatment",
         img_url: "https://images.unsplash.com/photo-1593007791459-4b05e1158229?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
-        author: "Stephanie Thurrott",
-        data: "Jun 09, 2021",
+        author: "Stephanie",
+        date: "Jun 09, 2021",
         url: "https://www.bannerhealth.com/healthcareblog/better-me/monoclonal-antibody-treatment-for-covid-19-what-you-need-to-know",
         text: `<p>COVID-19 cases are dropping across the nation, but for many people, there’s still a high risk of getting infected. If you’re diagnosed with COVID-19 and you’re at high risk for developing a severe case, you could qualify for monoclonal antibody treatment (mAb).</p>
 

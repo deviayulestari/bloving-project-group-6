@@ -44,6 +44,7 @@
     color: #fff;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
+    font-weight: 600;
 }
 
 .hottest > .card-hottest > .card-body{
@@ -59,7 +60,8 @@
 
 .card-body > h5{
     font-size: 16px!important;
-    font-weight: bold;
+    font-weight: 600;
+    margin: 10px;
 }
 
 .card-body > .highlight-btn {
@@ -73,6 +75,7 @@
     box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
     font-weight: bold;
     font-size: 12px;
+    margin: 4px 10px 8px 10px!important;
 }
 
 .card-body > .highlight-btn:hover{
@@ -82,19 +85,35 @@
 }
 
 .list-blog{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 40px;
 }
 
 .list-blog .box{
-    height: 430px;
+    align-items: center;
+    margin: auto;
+    justify-self: center;
+    width: 330px;
+    height: 420px;
 }
 
 .list-blogs .box .icons{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+}
+
+.list-blog .box .content h3 {
+    padding: 5px 0;
+    font-size: 18px;
+    color: var(--black);
+}
+
+.list-blog .box .content .title{
+    height: 120px;
 }
 
 @media (max-width:768px){
