@@ -71,7 +71,7 @@ dataBlogs.map((other, j)=>{
         const elOtherBlog = `
         <div class="card-body">
             <h5 class="card-title">${other.title}</h5>
-            <a href="${"detail-blog.html?id="+ other.id}" class="highlight-btn">Read More</a>
+            <a href="${"detail-blog.html?id="+ other.id}" class="recommended-btn">Read More</a>
         </div>
         `
         elOtherBlogsCards.insertAdjacentHTML('beforeend', elOtherBlog);

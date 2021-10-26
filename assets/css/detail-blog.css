@@ -25,6 +25,7 @@
     font-weight: bold;
     font-size: 36px;
     margin-top: 15px;
+    color: #C53058;
 }
 
 .blog-content .icons{
@@ -57,25 +58,31 @@
     line-height: 2;
 }
 
-.recomendation-card{
+.recomendation-card, .other-blogs{
     background-color: #f8f8fe;
     border-radius: 10px;
     box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
     padding-bottom: 5px;
 }
 
-.recomendation-card > .card-header{
+.other-blogs{
+    margin-top: 30px;
+}
+
+.recomendation-card > .card-header, .other-blogs > .card-other > .card-header{
     background-color: #3F7893;
     color: #fff;
     border-radius: 10px 10px 0px 0px;
 }
 
-.recomendation-card > .card-body{
-    padding: 0 15px;
+.recomendation-card > .card-body, .other-blogs .card-body{
+    padding: 15px 15px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 0;
 }
 
 .card-body > h5{
-    font-size: 16px!important;
+    font-size: 14px!important;
     font-weight: bold;
 }
 
@@ -90,6 +97,7 @@
     box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
     font-weight: bold;
     font-size: 12px;
+    margin: 5px 0;
 }
 
 .card-body > .recommended-btn:hover{
@@ -98,27 +106,10 @@
     font-weight: bold;
 }
 
-.other-blogs{
-    box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
-    border-radius: 10px;
-    margin-top: 25px;
-}
-
-.other-blogs > .card-other > .card-header{
-    background-color: #C53058;
-    color: #fff;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.other-blogs > .card-other > .card-body{
-    border-top: 1px solid rgba(0,0,0,.1);
-    margin-top: 0;
-}
-
 .card-other > .card-body{
     margin-top: 0;
     padding: 15px 15px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #blog-comment{
@@ -159,4 +150,17 @@
     color:#fff;
     background: #3F7893;
     font-weight: bold;
+}
+
+.comment-value > h6{
+    margin-top: 25px;
+}
+
+.comment-value > p{
+    max-width: 500px;
+}
+
+.comment-list{
+    margin-top: 15px;
+    margin-left: 0px;
 }
