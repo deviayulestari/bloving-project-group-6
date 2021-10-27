@@ -25,7 +25,7 @@ if(comments){
 }
 
 const currBlog = dataBlogs[idBlog-1];
-console.log(currBlog);
+// console.log(currBlog);
 
 const elBlogContent = document.querySelector(".blog-content");
 const elImgBlog = document.querySelector(".image-blog");
@@ -88,9 +88,9 @@ const commentButton = document.querySelector(".comment-btn");
 
 const prevComment = localStorage.getItem("comment");
 
-if(prevComment){
-    commentInput.value = prevComment;
-}
+// if(prevComment){
+//     commentInput.value = prevComment;
+// }
 
 commentButton.addEventListener("click", addComment);
 
@@ -141,6 +141,7 @@ function addComment(e){
             localStorage.setItem("comments_" + idBlog, JSON.stringify([comment]));
         }
         window.location.reload();
+        commentInput.value = "";
     }
 }
 //logic fitur comment end

@@ -48,7 +48,7 @@
     <div id="detail-blog">
         <div class="blog row container-fluid">
             <!-- left -->
-            <div class="col-9 blog-content mt-7 pt-5 px-5">
+            <div class="col-lg-9 col-sm-12 blog-content mt-7 pt-5 px-5">
                 <img class="image-blog">
                 <div class="icons">
                     <a class="author" href="#"><i class="fas fa-user"></i></a>
@@ -56,12 +56,34 @@
                 </div>
                 <h1 class="blog-title"></h1>
                 <p class="text-blog"></p>
+                <!-- Comment section start -->
+                <section id="blog-comment">
+                    <div class="row mb-5">
+                        <!-- comment input -->
+                        <div class="comment-area">
+                            <form action="" class="form-comment">
+                                <label for="text-area">Leave A Comment Here!</label>
+                                <textarea class="form-control" id="text-area" rows="3" placeholder="Write something here..."></textarea>
+                                <input type="submit" class="comment-btn" value="send" name="" id="">
+                            </form>
+                            <!-- comment value -->
+                            <div class="col-3 comment-value">
+                                <h6><b>Comments:</b></h6>
+                                <ul class="comment-list">
+                                    
+                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Comment section end -->
             </div>
             <!-- left -->
 
             <!-- right -->
             <!-- Recomendation Blogs -->
-            <div class="col-3 recommended-blog mt-7 pt-5 pe-4">
+            <div class="col-lg-3 col-sm-12 recommended-blog mt-7 pt-5 pe-4">
                 <div class="recomendation-card">
                     <div class="card-header">
                       Recommended for You
@@ -70,7 +92,7 @@
                 </div>
 
                 <!-- Other Blogs -->
-                <div class="other-blogs">
+                <div class="other-blogs mb-5">
                     <div class="card-other">
                         <div class="card-header">
                             other blogs 
@@ -84,29 +106,6 @@
     </div>
 </section>
 <!-- detail blog section end -->
-
-<!-- Comment section start -->
-<section id="blog-comment">
-    <div class="row container-fluid mb-5">
-        <!-- comment input -->
-        <div class="col-9 comment-area ps-5 ms-5">
-            <form action="" class="form-comment">
-                <label for="text-area">Leave A Comment Here!</label>
-                <textarea class="form-control" id="text-area" rows="3" placeholder="Write something here..."></textarea>
-                <input type="submit" class="comment-btn" value="send" name="" id="">
-            </form>
-            <!-- comment value -->
-            <div class="col-3 comment-value">
-                <h6><b>Comments:</b></h6>
-                <ul class="comment-list">
-                    
-     
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Comment section end -->
 
 
 <!-- footer section starts  -->
