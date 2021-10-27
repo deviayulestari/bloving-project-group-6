@@ -117,6 +117,16 @@
 }
 
 @media (max-width:768px){
+    .blogs > .row{
+        margin: 45px 0 35px 0!important;
+    }
+
+    .blogs h1{
+        margin-top: 45px;
+        margin-bottom: -35px;
+        padding-bottom: 0;
+    }
+
     .highlight{
         display: flex;
         flex-direction: column;
