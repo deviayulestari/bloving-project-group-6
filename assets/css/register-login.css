@@ -1,6 +1,5 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 .btn {
@@ -22,25 +21,10 @@ h4 span{
     color:#C53058;
 }
 
-.nav-item {
-    font-size: 1.1rem;
+.form{
+    border-radius: 20px;
 }
 
-/* CUSTOM MARGIN */
-.mt-6 {
-    margin-top: 3.5rem;
-}
-
-.mt-7 {
-    margin-top: 4rem;
-}
-
-/* CUSTOM PADDING */
-.py-6 {
-    padding: 3.5rem 0
-}
-
-/* BORDER RADIUS */
-.rounded-6 {
-    border-radius: .6rem!important;
+.background{
+    background : cover no-repeat;
 }

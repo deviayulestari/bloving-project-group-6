@@ -30,7 +30,7 @@ const elLatestBlog = document.querySelector(".latest-blog")
 dataBlog.forEach((latest, id)=>{
     if(id < 3){
     const elCol = `
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12 col-md-6">
             <div class="box p-3 m-2">
                 <div class="image">
                     <img src="${latest.img_url}" class="w-100 h-100"  alt="Blog 1 Image">

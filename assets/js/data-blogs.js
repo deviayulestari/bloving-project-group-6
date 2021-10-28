@@ -135,7 +135,7 @@ const dataBlogs = [
         <li>Trouble concentrating</li>
         <li>Headaches</li>
         <li>Joint pain</li>
-        
+        <br>
         <p>Harvey Hsu, MD, medical director at Banner - University Medicine Internal Medicine Clinic in Phoenix, AZ, said, “It can be difficult to know if you have chronic fatigue syndrome since fatigue is a very common symptom.”</p>
         
         <p>If you feel moderate or severe fatigue for at least six months, talk to your health care provider. You’ll need to rule out other causes of long-term fatigue, such as low thyroid levels, low red blood cell counts, autoimmune disease, depression and sleep apnea.</p>
@@ -276,12 +276,12 @@ const dataBlogs = [
         <li>Honeys</li>
         <li>Seeds</li>
         <li>Nuts</li>
-        <li>Flowers</li><
+        <li>Flowers</li>
         <li>Barks</li>
         <li>Leaves</li>
         <li>Wines</li>
         <li>Teas</li>
-        
+        <br>
         <p>Basically, if you consume a lot of organic foods that sprout from the earth, you’ll get a lot of quercetin. In countries like Spain, where the cuisine is heavy in fruits and vegetables, people have shown high daily intakes of quercetin. (Mediterranean diet, anyone?) Quercetin is also available in medicinal botanicals like ginkgo biloba, and as a dietary supplement.</p>
         
         <span><b>How Does Quercetin Work?</b></span>
@@ -339,7 +339,7 @@ const dataBlogs = [
         title: "Have COVID-19? You Could Be Eligible for Monoclonal Antibody Treatment",
         img_url: "https://images.unsplash.com/photo-1593007791459-4b05e1158229?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
         author: "Stephanie",
-        data: "Jun 09, 2021",
+        date: "Jun 09, 2021",
         url: "https://www.bannerhealth.com/healthcareblog/better-me/monoclonal-antibody-treatment-for-covid-19-what-you-need-to-know",
         text: `<p>COVID-19 cases are dropping across the nation, but for many people, there’s still a high risk of getting infected. If you’re diagnosed with COVID-19 and you’re at high risk for developing a severe case, you could qualify for monoclonal antibody treatment (mAb).</p>
 
@@ -387,7 +387,7 @@ const dataBlogs = [
         author: "Regan Olsson",
         date: "Sep 01, 2021",
         url: "https://www.bannerhealth.com/healthcareblog/advise-me/back-to-school-back-to-germs",
-        text: `<p>Your child is all packed and ready to go!<p>
+        text: `<h5>Your child is all packed and ready to go!</h5>
 
         <li>Pencils? ✅</li>
         
@@ -398,7 +398,7 @@ const dataBlogs = [
         <li>Water bottle? ✅ </li>
         
         <li>Health? Check?? </li>
-        
+        <br>
         <p>As a parent, you want to do everything in your power to ensure your child is best prepared as they leave the confines of your home and into the hallowed halls of their elementary, middle or high school this year. While you go through your child’s back-to-school list to get them ready for the new school year, don’t forget to put their health on the list as well.</p>
         
         <p>Going back to school can be exciting and a bit nerve-wracking for kids (and their parents!). There’s a lot to think about these days and not just about who they’ll sit with at lunch. They’ll also want to be smart on germs and viruses and how to remain healthy throughout the year, so they can continue to be their best selves.</p>
@@ -460,6 +460,39 @@ const dataBlogs = [
         <p>The best defense is a strong offense, and that’s why vaccinations are the best way to protect you, your children and others from illness. Check in with your child’s health care provider and make sure your child is up to date on all their immunizations or ask for the vaccination schedule.</p>
         
         <p>“It’s important to stay up to date on all immunizations, including meningitis, tetanus, measles, flu shot and COVID-19 vaccine, if eligible,” Dr. Fels said. “Vaccines not only help to prevent serious infection/hospitalization and death, but they also prevent the spread of illness at home to those who may be immunocompromised, at risk for infection complications and also to those in our community.”</p>`
+    },
+    {
+        id: 10,
+        title: "What is Coronavirus? The Different Types of coronaviruses",
+        img_url: "https://images.unsplash.com/photo-1587316745621-3757c7076f7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1073&q=80",
+        author: "Frederick Gamblre",
+        date: "Mar 20, 2020",
+        url: "https://coronavirusexplained.ukri.org/en/article/cad0003/",
+        text: `
+        <h5><b>What is coronavirus?</b> Coronaviruses are a family of viruses that cause illness in humans and animals. Seven different types have been found in people, including those responsible for the SARS, MERS and COVID-19 epidemics.</h5>
+        
+        <h5>Early reports suggest the new virus is more contagious than the one causing SARS but less likely to cause severe symptoms. There is much we need to learn about the new coronavirus (COVID-19).</h5>
+        <br>
+        <h4>What are the types of coronavirus?</h4>
+        <p>Coronaviruses (CoVs) are a family of viruses that cause respiratory and intestinal illnesses in humans and animals.They usually cause mild colds in people but the emergence of the severe acute respiratory syndrome (SARS) epidemic in China in 2002–2003 and the Middle East respiratory syndrome (MERS) on the Arabian Peninsula in 2012 show they can also cause severe disease.</p>
+        <p>Since December 2019, the world has been battling another coronavirus. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the virus responsible for the current outbreak of coronavirus disease (COVID-19), which was first identified in Wuhan, China, following reports of serious pneumonia.</p>
+        <br>
+        <h4>What do coronaviruses look like?</h4>
+        <p>Coronaviruses are relatively simple structures, and their form helps us to understand how they work. They are spherical and coated with spikes of protein. These spikes help the virus bind to and infect healthy cells.</p>
+        <p>However, the same spikes are also what allows the immune system to 'see' the virus. Bits of the spike can be used in potential coronavirus vaccines to prompt the body to produce antibodies against this new virus.</p>
+        <p>They are named for the distinctive appearance of their spikes; when seen under a powerful microscope, the spikes look like a crown (corona is the Latin for ‘crown’). Beneath these spikes is a layer of membrane. This membrane can be disrupted by detergents and alcohols, which is why soap and water and alcohol hand sanitiser gels are effective against the virus.</p>
+        <p>Inside the membrane is the virus’ genetic material – its genome. Whereas the genomes of some viruses like chickenpox and smallpox are made of DNA like humans, those of coronaviruses are made of the closely related RNA. RNA viruses have small genomes which are subject to constant change.</p>
+        <p>These changes, called mutations, help the virus adapt to and infect new host species. It is thought that the new COVID-19 likely originated from bats but it is not yet known whether mutations allowed this jump from animals to humans.</p>
+        <br>
+        <h4>What is different about the new coronavirus?</h4>
+        <p>The new SARS-CoV-2, is most closely related to a group of SARS-CoVs found in humans, bats, pangolins and civets.</p>
+        <p>Even though there are many similarities between the new COVID-19 and the virus that caused the SARS epidemic, there are also differences resulting from changes in their genomes. This includes how they are passed from one individual to another, and the differing symptoms of coronaviruses. Early reports suggest that the new coronavirus is more contagious than the virus that caused SARS but less likely to cause severe disease.</p>
+        <br>
+        <h4>How many coronaviruses are found in humans?</h4>
+        <p>To date seven human coronaviruses (HCoVs) have been identified (see table below). Four of them are common; less high risk and typically cause only mild respiratory illnesses in healthy human adults. However, they contribute to a third of common cold infections and, in higher risk people with weak immune systems, they can cause long term, life-threatening illnesses.</p>
+        <p>The other three (those causing MERS, SARS and COVID-19 cases) are known to cause more severe illness such as shortness of breath and even death. COVID-19 illness tends to be milder than SARS and MERS but more severe than disease caused by the four common coronaviruses.</p>
+        <p>Because this virus is new, no-one has any immunity to it. This means it will potentially infect very large numbers of people. And even though the number of very severe cases is low in percentage terms, a small percentage of a very large number adds up to many people with acute illness.</p>
+        <p>It is thought that all seven human coronaviruses might have been transmitted to humans from other animals. Those causing MERS, SARS and COVID-19 probably originated from bats. It is possible that the transfer of the new COVID-1 from its original host species to humans involved another animal species, such as the pangolin, as an intermediate host.</p>`
     }
 ]
 
