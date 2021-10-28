@@ -7,6 +7,7 @@
     text-decoration: none !important;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .highlight{
@@ -15,7 +16,7 @@
 }
 
 .highlight-text{
-    background: url(../images/reading.jpg);
+    background: url(../images/blogpage.gif);
     max-height: 400px;
     background-position: center;
     background-size: contain;
@@ -123,7 +124,7 @@
 
     .blogs h1{
         margin-top: 45px;
-        margin-bottom: -35px;
+        margin-bottom: 15px;
         padding-bottom: 0;
     }
 
