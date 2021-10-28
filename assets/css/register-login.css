@@ -1,0 +1,30 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    background: #C53058;
+    color:#fff;
+}
+
+.btn:hover{
+    color:#fff;
+    background: #3F7893;
+    font-weight: bold;
+}
+
+h4{
+    color: #3f7893;
+}
+
+h4 span{
+    color:#C53058;
+}
+
+.form{
+    border-radius: 20px;
+}
+
+.background{
+    background : cover no-repeat;
+}

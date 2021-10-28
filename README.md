@@ -7,3 +7,5 @@ Member :
   
 Mentor :  
 Rizky Maulita Putri
+  
+https://bloving-project-group-6.netlify.app/
