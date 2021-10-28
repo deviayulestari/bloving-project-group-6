@@ -15,7 +15,7 @@
 }
 
 .blog-content > img{
-    max-height: 650px;
+    height: 420px;
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
@@ -177,10 +177,11 @@
 
     .blog-content > h1{
         font-size: 32px;
+        padding-bottom: 15px;
     }
 
     .blog-content > img{
-        max-height: 200px;
+        max-height: 300px;
     }
 
     .blogs .detail-blog{
@@ -193,5 +194,16 @@
         padding-top: 0px!important;
         padding: 0px 35px!important;
         margin: auto;
+    }
+}
+
+@media (max-width:768px){
+    .blog-content > img{
+        max-height: 200px;
+    }
+
+    .blog-content > h1{
+        font-size: 32px;
+        padding-bottom: 45px;
     }
 }

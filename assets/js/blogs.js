@@ -8,7 +8,7 @@ dataBlogs.forEach((blog, index)=>{
     if(index < 9){
         const elCol = `
         <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="box p-3 mt-5">
+            <div class="box p-3 mb-5">
                 <div class="image">
                     <img src="${blog.img_url}" class="w-100 h-100"  alt="Blog 1 Image">
                     </div>
