@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#detail-blog > .blog{
+    margin-top: 30px;
+}
+
+.blog-content > img{
+    max-height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: 50%;
+}
+
+.blog-content > h1{
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 15px;
+    color: #C53058;
+}
+
+.blog-content .icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.blog-content .icons a{
+    color:#777;
+    font-size: 14px;
+}
+
+.blog-content .icons a i{
+    padding-right: 7px;
+}
+
+.blog-content .icons a:hover{
+    color:#C53058;
+}
+.blog-content > p{
+    margin-top: 15px;
+}
+
+.blog-content > p > span{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.recomendation-card, .other-blogs{
+    background-color: #f8f8fe;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
+    padding-bottom: 5px;
+}
+
+.other-blogs{
+    margin-top: 30px;
+}
+
+.recomendation-card > .card-header, .other-blogs > .card-other > .card-header{
+    background-color: #3F7893;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.recomendation-card > .card-body, .other-blogs .card-body{
+    padding: 15px 15px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 0;
+}
+
+.card-body > h5{
+    font-size: 14px!important;
+    font-weight: bold;
+}
+
+.card-body > .recommended-btn {
+    display: inline-block;
+    color: #3F7893;
+    border: 2px solid#3F7893;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgb(0 0 0 / 10%);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.card-body > .recommended-btn:hover{
+    color:#fff;
+    background: #3F7893;
+    font-weight: bold;
+}
+
+.card-other > .card-body{
+    margin-top: 0;
+    padding: 15px 15px;
+    font-size: 14px;
+}
+
+#blog-comment{
+    background-color: #fff;
+}
+
+#blog-comment > .row > .comment-area{
+    background-color: #f8f8fe;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+#blog-comment > .row > .comment-area > .form-comment #text-area{
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+#blog-comment > .row > .comment-area > .form-comment label{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+#blog-comment > .row > .comment-area > .form-comment > .comment-btn{
+    display: inline-block;
+    background: #C53058;
+    color:#fff;
+    border-radius: 50px;
+    padding: 5px 25px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    font-weight: bold;
+}
+
+#blog-comment .row > .comment-area > .form-comment > .comment-btn:hover{
+    color:#fff;
+    background: #3F7893;
+    font-weight: bold;
+}
+
+.comment-value > h6{
+    margin-top: 25px;
+}
+
+.comment-value{
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+}
+
+.comment-list{
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 200px;
+}
+
+@media (max-width:991px){
+    .blog {
+        padding: 0;
+        margin: 0;
+    }
+
+    .blog-content > h1{
+        font-size: 32px;
+    }
+
+    .blog-content > img{
+        max-height: 200px;
+    }
+
+    .blogs .detail-blog{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .recommended-blog{
+        padding-top: 0px!important;
+        padding: 0px 35px!important;
+        margin: auto;
+    }
+}
