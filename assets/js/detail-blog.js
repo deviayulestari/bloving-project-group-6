@@ -17,8 +17,10 @@ if(comments){
     const arrComment = JSON.parse(comments);
     arrComment.forEach(comment => {
         const list = `
-        <b>${comment.username}</b>
-        <p>${comment.comment}</p>`
+        <div class="comment-space">
+            <b>${comment.username}</b>
+            <p>${comment.comment}</p>
+        </div>`
 
         commentList.insertAdjacentHTML("afterbegin", list);
     })
@@ -86,7 +88,7 @@ elRecBlog.appendChild(elOtherBlogsCards);
 const commentInput = document.querySelector(".form-control");
 const commentButton = document.querySelector(".comment-btn");
 
-const prevComment = localStorage.getItem("comment");
+// const prevComment = localStorage.getItem("comment");
 
 // if(prevComment){
 //     commentInput.value = prevComment;
@@ -129,15 +131,14 @@ function addComment(e){
             comment: commentInput.value
         }
 
-        console.log(comments);
+        // console.log(comments);
         if(comments){
-            console.log(comments, "< log 124");
             const arrComment = JSON.parse(comments);
             arrComment.push(comment);
             localStorage.setItem("comments_" + idBlog, JSON.stringify(arrComment));
             
         } else {
-            console.log(comments, "belum ada komen");
+            // console.log(comments, "belum ada komen");
             localStorage.setItem("comments_" + idBlog, JSON.stringify([comment]));
         }
         window.location.reload();

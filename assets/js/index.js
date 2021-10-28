@@ -50,3 +50,28 @@ dataBlog.forEach((latest, id)=>{
     }
     console.log(elLatestBlog);
 })
+
+const inputFullname = document.querySelector(".input-fullname");
+const inputEmail = document.querySelector(".input-email");
+const inputMessage = document.querySelector(".input-message");
+const btnContactSend = document.querySelector(".contact-btn");
+
+btnContactSend.addEventListener("click", function(e){
+    e.preventDefault();
+
+    const fullname = inputFullname.value;
+    const email = inputEmail.value;
+    const message = inputMessage.value;
+
+    const dataSender = {
+        fullname: fullname,
+        email: email,
+        message: message
+    } 
+
+    localStorage.setItem("dataSender", JSON.stringify(dataSender));
+
+    inputFullname.value = "";
+    inputEmail.value = "";
+    inputMessage.value = "";
+})
