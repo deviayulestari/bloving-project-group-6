@@ -22,17 +22,26 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 30px;
+    text-align: center;
 }
 
 .highlight-text > h2{
     color: #3F7893;
-    text-align: center;
     margin-top: 25px;
-    font-weight: bold;
+    font-size: 30px;
+}
+
+.highlight-text > p{
+    font-size: 20px;
+    color: #C53058;
 }
 
 .highlight-text > h2 > span{
     color: #C53058;
+}
+
+.highlight-text > p > span{
+    color: #3F7893;
 }
 
 .hottest > .card-hottest{
@@ -117,9 +126,17 @@
     height: 120px;
 }
 
+@media (max-width:991px){
+    .highlight > .highlight-text{
+        max-height: 430px;
+        background-position: 50% 100%;
+        padding-bottom: 400px;
+    }
+}
+
 @media (max-width:768px){
     .blogs > .row{
-        margin: 45px 0 35px 0!important;
+        margin: 45px 0 25px 0!important;
     }
 
     .blogs h1{
@@ -134,6 +151,12 @@
     }
 
     .highlight > .highlight-text{
-        background: none;
+        max-height: 450px;
+        background-position: 50% 100%;
+        padding-bottom: 400px;
+    }
+
+    .hottest{
+        padding: 0;
     }
 }

@@ -223,6 +223,10 @@ header .nav a.active, header .nav a:hover{
     color:#C53058;
 }
 
+.contact .heading{
+    color: #3F7893;
+}
+
 .contact form{
     padding:15px;
     border-radius: 5px;
